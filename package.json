@@ -1,0 +1,21 @@
+{
+  "name": "bild-installer",
+  "version": "1.0.0",
+  "description": "bild application installer",
+  "bin": {
+    "bildInstaller": "./bildInstaller.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lindon Camaj",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.0-rc.6",
+    "colors": "^1.1.2",
+    "inquirer": "^1.0.3",
+    "node-cmd": "^1.1.1",
+    "run-async": "^2.2.0",
+    "underscore": "^1.8.3"
+  }
+}
