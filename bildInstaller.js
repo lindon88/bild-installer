@@ -51,9 +51,15 @@ var installer = function(err, options){
                     // define application list
                     var appList = [];
                     _.each(self.apps, function(app){
+
+                        var checked = false;
+                        if(!_.isUndefined(app.checked) && !_.isNull(app.checked)){
+                            checked = app.checked;
+                        }
+
                         appList.push({
                             name: app.name,
-                            checked: false
+                            checked: checked
                         });
                     });
 
